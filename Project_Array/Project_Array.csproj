@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Project_Array.Array.Employe1</StartupObject>
+    <StartupObject>Project_Array.Array.MinArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,11 @@
     <Compile Include="2DArray\Initialize.cs" />
     <Compile Include="2DArray\Input_From_USer.cs" />
     <Compile Include="2DArray\Input_from_user_ForeachLoop.cs" />
+    <Compile Include="Array\Alternate_Element.cs" />
+    <Compile Include="Array\Arayy_Avg_Prime.cs" />
+    <Compile Include="Array\Array_Odd_position.cs" />
+    <Compile Include="Array\Array_Prime.cs" />
+    <Compile Include="Array\Array_sumOfEven.cs" />
     <Compile Include="Array\Ascending_order.cs" />
     <Compile Include="Array\AverageMethod.cs" />
     <Compile Include="Array\Disply_NAME_1D.cs" />
@@ -62,22 +67,73 @@
     <Compile Include="Array\EvenOdd.cs" />
     <Compile Include="Array\ForEachLoop_DisplyName.cs" />
     <Compile Include="Array\Frequency.cs" />
+    <Compile Include="Array\MaxChar.cs" />
     <Compile Include="Array\Max_number.cs" />
+    <Compile Include="Array\MinArray.cs" />
     <Compile Include="Array\NagativeNumber.cs" />
     <Compile Include="Array\Product.cs" />
     <Compile Include="Array\Rainfall.cs" />
+    <Compile Include="Array\Reverse_String.cs" />
+    <Compile Include="Array\SearchElement.cs" />
     <Compile Include="Array\Searchnumber.cs" />
     <Compile Include="Array\smallest_second.cs" />
+    <Compile Include="Array\sumElement.cs" />
+    <Compile Include="Array\SumOF_AlternativeNumber.cs" />
     <Compile Include="Array\Unique_elements.cs" />
+    <Compile Include="Array\vowel.cs" />
+    <Compile Include="Collections\arrayList.cs" />
+    <Compile Include="Collections\Hashtable_class.cs" />
+    <Compile Include="Collections\Queue_class.cs" />
+    <Compile Include="Collections\sortedList_class.cs" />
+    <Compile Include="Collections\Stack.cs" />
+    <Compile Include="Collection_non_generic_Interface\Icomaprable_Product.cs" />
+    <Compile Include="Collection_non_generic_Interface\Icomparer_interface.cs" />
+    <Compile Include="Collection_non_generic_Interface\Program.cs" />
+    <Compile Include="Delegates\User.cs" />
+    <Compile Include="Delegates\User_Multicast.cs" />
+    <Compile Include="Events_\Bank.cs" />
+    <Compile Include="Events_\Student.cs" />
+    <Compile Include="Exception_Handling\Exception_handling.cs" />
+    <Compile Include="Exception_Handling\Nagative_number.cs" />
+    <Compile Include="Exception_Handling\NameException.cs" />
+    <Compile Include="Generic_assignment\Disply_List.cs" />
+    <Compile Include="Generic_assignment\Frequency_Of_Each_element.cs" />
+    <Compile Include="Generic_assignment\jagarray.cs" />
+    <Compile Include="Generic_assignment\Matrix.cs" />
+    <Compile Include="Generic_assignment\Name_AscendingOrder.cs" />
+    <Compile Include="Generic_assignment\Remove_Duplicate.cs" />
+    <Compile Include="Generic_assignment\_integer5.cs" />
+    <Compile Include="Generic_Collection\Dictionary_class.cs" />
+    <Compile Include="Generic_Collection\HashsetClass.cs" />
+    <Compile Include="Generic_Collection\HashSet_class.cs" />
+    <Compile Include="Generic_Collection\List_class.cs" />
+    <Compile Include="Generic_Collection\Queue_class.cs" />
+    <Compile Include="Generic_Collection\SortedList_class.cs" />
+    <Compile Include="Generic_Collection\Stack_class.cs" />
+    <Compile Include="Generic_Interfaces\Icomparer_interface.cs" />
     <Compile Include="JaggedArray\jaggedArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="String_Method\alphabate_digit_character.cs" />
+    <Compile Include="String_Method\Anagram.cs" />
+    <Compile Include="String_Method\Count_vowel_consonent.cs" />
+    <Compile Include="String_Method\Duplicate.cs" />
+    <Compile Include="String_Method\Highest_frequency_character.cs" />
     <Compile Include="String_Method\IsNullOr_Empty.cs" />
+    <Compile Include="String_Method\Longest_word.cs" />
     <Compile Include="String_Method\Methods_OF_String.cs" />
+    <Compile Include="String_Method\Reverse_order_word.cs" />
+    <Compile Include="String_Method\Reverse_string.cs" />
+    <Compile Include="String_Method\string&amp;stringbuilder.cs" />
+    <Compile Include="String_Method\stringArrayDisply.cs" />
+    <Compile Include="String_Method\StringBuilder.cs" />
     <Compile Include="String_Method\String_Array.cs" />
+    <Compile Include="String_Method\sumOFAlterElement.cs" />
+    <Compile Include="String_Method\Toggle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
