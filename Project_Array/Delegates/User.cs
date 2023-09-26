@@ -21,17 +21,12 @@ namespace Project_Array.Delegates
 
         public static void Main(string[] args)
         {
-
             User u1 = new User();
             MyDelegate myDelegate = new MyDelegate(u1.AcceptName);
             string result = myDelegate.Invoke("pradnya");
             Console.WriteLine(result);
 
-
         }
-
-
-
 
     }
 }
